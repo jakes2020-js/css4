@@ -1,0 +1,9 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/592/919/large/rogue-dragon-studio-janesfarm-main.jpg?1525231030);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
