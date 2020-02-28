@@ -1,44 +1,97 @@
-body{
-	height: 100vh;
-	background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/592/919/large/rogue-dragon-studio-janesfarm-main.jpg?1525231030);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	overflow: hidden;
+body {
+  height: 100vh;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/592/919/large/rogue-dragon-studio-janesfarm-main.jpg?1525231030);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
 }
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
-.sidebar{
-	position: fixed;
-	width: 200px;
-	height: 100%;
-	background:#151719;
-	left: -200px;
-	transition: all 500ms linear;
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
 }
-#sidebar.active{
-	left: 0px;
+#sidebar.active {
+  left: 0px;
 }
-#sidebar ul li{
-	color: rgba(230,230,230,0.9);
-	list-style: none;
-	padding:15px 10px;
-	border-bottom: 1px solid rgba(100,100,100,0.3);
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
 }
-#sidebar .toggle-btn{
-	position: absolute;
-	left: 230px;
-	top: 20px;
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
 }
-#sidebar .togglr-btn span{
-	display: block;
-	width: 30px;
-	height: 5px;
-	background:#151719;
-	margin: 5px 0px;
+#sidebar .togglr-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0px;
 }
-#Pett{
-	margin-left: 17%;
-	margin-top: 30%;
+#Pett {
+  margin-left: 17%;
+  margin-top: 30%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
