@@ -1,6 +1,5 @@
 body {
   display: flex;
-  justify-content: flex-start;
   height: 100vh;
   background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/592/919/large/rogue-dragon-studio-janesfarm-main.jpg?1525231030);
   background-repeat: no-repeat;
@@ -12,14 +11,7 @@ body {
   padding: 0px;
   font-family: sans-serif;
 }
-.sidebar {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  background: #151719;
-  left: -200px;
-  transition: all 500ms linear;
-}
+
 #sidebar.active {
   left: 0px;
 }
